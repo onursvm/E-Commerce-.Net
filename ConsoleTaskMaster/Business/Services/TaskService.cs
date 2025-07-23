@@ -4,7 +4,9 @@ using Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TaskItem = Models.TaskItem;
 using TaskStatus = Models.TaskStatus;
+
 
 namespace Business.Services
 {
@@ -16,7 +18,7 @@ namespace Business.Services
         {
             _repository = repository;
         }
-
+        
         public async Task<List<TaskItem>> GetAllTasksAsync()
         {
             return await _repository.GetAllTasksAsync();
@@ -29,6 +31,7 @@ namespace Business.Services
 
         public async Task AddTaskAsync(TaskItem task)
         {
+            task.CreatedAt = DateTime.Now;
             await _repository.AddTaskAsync(task);
             await _repository.SaveChangesAsync();
         }

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "Title": "ingilizce",
+    "Description": "gramer \u00E7al\u0131\u015F",
+    "Status": 2,
+    "CreatedAt": "2025-07-23T14:23:14.2660434+03:00",
+    "UpdatedAt": "2025-07-23T14:23:33.6373652+03:00"
+  },
+  {
+    "Id": 2,
+    "Title": "deneme",
+    "Description": "deneme123",
+    "Status": 0,
+    "CreatedAt": "2025-07-23T14:24:16.1493999+03:00",
+    "UpdatedAt": null
+  }
+]

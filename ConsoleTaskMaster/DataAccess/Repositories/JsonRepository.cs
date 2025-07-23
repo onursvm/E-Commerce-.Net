@@ -15,11 +15,17 @@ namespace DataAccess.Repositories
         private List<TaskItem> _tasks;
         private readonly object _lock = new object();
 
-        public JsonRepository(string filePath = "tasks.json")
+        public JsonRepository()
         {
-            _filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filePath);
+            // Uygulamanın ÇALIŞTIĞI ana dizini bul (bin/Debug içi değil!)
+            string appRootPath = AppDomain.CurrentDomain.BaseDirectory;
+
+            // Solution/Proje kök dizinine çık (Debug klasöründen kurtul)
+            string projectRootPath = Directory.GetParent(appRootPath).Parent.Parent.Parent.FullName;
+
+            _filePath = Path.Combine(projectRootPath, "tasks.json"); // Ana dizinde oluştur
             _tasks = new List<TaskItem>();
-            LoadTasksAsync().Wait();
+            LoadTasksAsync().Wait(); // Verileri yükle
         }
 
         private async Task LoadTasksAsync()
@@ -32,17 +38,12 @@ namespace DataAccess.Repositories
 
             try
             {
-                string json;
-                lock (_lock)
-                {
-                    json = File.ReadAllText(_filePath);
-                }
-
-                _tasks = await Task.Run(() =>
-                    JsonSerializer.Deserialize<List<TaskItem>>(json) ?? new List<TaskItem>());
+                string json = await Task.Run(() => File.ReadAllText(_filePath));
+                _tasks = JsonSerializer.Deserialize<List<TaskItem>>(json) ?? new List<TaskItem>();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine($"Dosya okuma hatası: {ex.Message}");
                 _tasks = new List<TaskItem>();
             }
         }
@@ -111,16 +112,15 @@ namespace DataAccess.Repositories
 
         public async Task SaveChangesAsync()
         {
-            var options = new JsonSerializerOptions { WriteIndented = true };
-            string json = JsonSerializer.Serialize(_tasks, options);
-
-            await Task.Run(() =>
+            try
             {
-                lock (_lock)
-                {
-                    File.WriteAllText(_filePath, json);
-                }
-            });
+                string json = JsonSerializer.Serialize(_tasks, new JsonSerializerOptions { WriteIndented = true });
+                await Task.Run(() => File.WriteAllText(_filePath, json)); // Use synchronous WriteAllText wrapped in Task.Run
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Dosya yazma hatası: {ex.Message}");
+            }
         }
     }
 }
