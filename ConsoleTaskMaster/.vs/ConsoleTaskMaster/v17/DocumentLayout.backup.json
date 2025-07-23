@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{301EB962-1B82-4897-8250-7CA3CA193DFB}|ConsoleTaskMaster\\ConsoleTaskMaster.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\consoletaskmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301EB962-1B82-4897-8250-7CA3CA193DFB}|ConsoleTaskMaster\\ConsoleTaskMaster.csproj|solutionrelative:consoletaskmaster\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED102AF9-162D-4080-990A-F7A27EF8A895}|Business\\Business.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\business\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED102AF9-162D-4080-990A-F7A27EF8A895}|Business\\Business.csproj|solutionrelative:business\\interfaces\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED102AF9-162D-4080-990A-F7A27EF8A895}|Business\\Business.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\business\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED102AF9-162D-4080-990A-F7A27EF8A895}|Business\\Business.csproj|solutionrelative:business\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D09CB-09E4-40EF-A94E-2B2577430E9A}|Models\\Models.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92D09CB-09E4-40EF-A94E-2B2577430E9A}|Models\\Models.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F9F0D2-9A3C-4DDE-924F-44682BFA1DF1}|DataAccess\\DataAccess.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\dataaccess\\repositories\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F9F0D2-9A3C-4DDE-924F-44682BFA1DF1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F9F0D2-9A3C-4DDE-924F-44682BFA1DF1}|DataAccess\\DataAccess.csproj|c:\\users\\onurs\\source\\repos\\consoletaskmaster\\dataaccess\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F9F0D2-9A3C-4DDE-924F-44682BFA1DF1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\ConsoleTaskMaster\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleTaskMaster\\Program.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\ConsoleTaskMaster\\Program.cs",
+              "RelativeToolTip": "ConsoleTaskMaster\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:17.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:38.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Business\\Interfaces\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Business\\Interfaces\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Business\\Interfaces\\ITaskService.cs",
+              "RelativeToolTip": "Business\\Interfaces\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:06.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Business\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\Business\\Services\\TaskService.cs",
+              "RelativeToolTip": "Business\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:09.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\DataAccess\\Repositories\\JsonRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\JsonRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\DataAccess\\Repositories\\JsonRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\JsonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:31.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\DataAccess\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\ConsoleTaskMaster\\DataAccess\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DataAccess\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:36:28.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

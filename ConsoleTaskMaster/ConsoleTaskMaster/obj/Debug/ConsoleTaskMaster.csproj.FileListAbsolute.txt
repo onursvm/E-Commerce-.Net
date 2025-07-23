@@ -1,0 +1,2 @@
+C:\Users\onurs\source\repos\ConsoleTaskMaster\ConsoleTaskMaster\obj\Debug\ConsoleTaskMaster.csproj.AssemblyReference.cache
+C:\Users\onurs\source\repos\ConsoleTaskMaster\ConsoleTaskMaster\obj\Debug\ConsoleTaskMaster.csproj.CoreCompileInputs.cache

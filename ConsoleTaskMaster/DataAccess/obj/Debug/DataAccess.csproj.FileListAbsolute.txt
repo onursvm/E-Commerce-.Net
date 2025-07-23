@@ -1,0 +1,2 @@
+C:\Users\onurs\source\repos\ConsoleTaskMaster\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\onurs\source\repos\ConsoleTaskMaster\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
