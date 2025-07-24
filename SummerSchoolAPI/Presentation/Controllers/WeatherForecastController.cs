@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace SummerSchoolAPI.Controllers
+namespace SummerSchoolAPI.Presentation.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -28,6 +28,11 @@ namespace SummerSchoolAPI.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+        [HttpGet("Topla")]
+        public int Topla(int a, int b)
+        {
+            return a + b;
         }
     }
 }
