@@ -106,30 +106,14 @@
     ]
   },
   {
-    "ContainingType": "SummerSchoolAPI.Presentation.Controllers.Controller",
-    "Method": "Delete",
-    "RelativePath": "{id}",
-    "HttpMethod": "DELETE",
+    "ContainingType": "SummerSchoolAPI.Presentation.Controllers.BookController",
+    "Method": "GetAll",
+    "RelativePath": "Book/list",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "SummerSchoolAPI.Presentation.Controllers.WeatherForecastController",
