@@ -1,0 +1,6 @@
+@SummerSchoolAPI_HostAddress = http://localhost:5233
+
+GET {{SummerSchoolAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
