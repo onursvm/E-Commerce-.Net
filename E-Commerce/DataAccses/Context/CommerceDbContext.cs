@@ -1,7 +1,7 @@
 ﻿using E_Commerce.DataAccses.Entities.Identity;
 using E_Commerce.DataAccses.Entities.Properties;
 using Microsoft.EntityFrameworkCore;
-using Org.BouncyCastle.Crypto.Generators;
+using BCrypt.Net;
 
 namespace E_Commerce.DataAccses.Context
 {
@@ -51,7 +51,7 @@ namespace E_Commerce.DataAccses.Context
                 new PropertyType { Id = 3, Name = "Arsa" }
                 );
 
-            modelBuilder.Entity<PropertyStatus>.HasData(
+            modelBuilder.Entity<PropertyStatus>().HasData(
                 new PropertyStatus { Id = 1, Name = "Satılık" },
                 new PropertyStatus { Id = 2, Name = "Kiralık" }
                 );
