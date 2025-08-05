@@ -1,6 +1,7 @@
 ﻿using E_Commerce.DataAccses.Context;
 using E_Commerce.DataAccses.Entities.Identity;
 using E_Commerce.DataAccses.Interfaces.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.DataAccses.Repositories.Identity
 {
@@ -12,19 +13,28 @@ namespace E_Commerce.DataAccses.Repositories.Identity
             _context = context;
         }
 
-        public Task<IEnumerable<Role>> GetAllAsync()
+        public async Task<IEnumerable<Role>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Roles
+                .AsNoTracking()
+                .ToListAsync();
         }
 
-        public Task<Role> GetByIdAsync(int id)
+        public async Task<Role> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+           
+                return await _context.Roles
+                   .AsNoTracking()
+                   .FirstOrDefaultAsync(r => r.Id == id);
+            
+
         }
 
-        public Task<Role> GetByNameAsync(string name)
+        public async Task<Role> GetByNameAsync(string name)
         {
-            throw new NotImplementedException();
+            return await _context.Roles
+                .AsNoTracking()
+                .FirstOrDefaultAsync(r => r.Name == name);
         }
     }
 }
