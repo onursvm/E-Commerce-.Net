@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\services\\propertyservices\\service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\services\\propertyservices\\service\\propertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\service\\propertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:45:36.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PropertyPhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:45:32.462Z",
+              "EditorCaption": ""
             }
           ]
         }

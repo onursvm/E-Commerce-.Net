@@ -1,4 +1,6 @@
-﻿namespace E_Commerce.DataAccses.Entities.Properties
+﻿using E_Commerce.DataAccses.Entities.Identity;
+
+namespace E_Commerce.DataAccses.Entities.Properties
 {
     public class Property
     {
@@ -12,6 +14,8 @@
         public string Location { get; set; }
 
         // Navigation Properties
+        public int UserId { get; set; }
+        public User User { get; set; }
         public int PropertyTypeId { get; set; }
         public PropertyType PropertyType { get; set; }
 

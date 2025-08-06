@@ -16,14 +16,15 @@ namespace E_Commerce.DataAccses.Repositories.Properties
             _context = context;
         }
 
-        public async Task AddAsync(PropertyEntity entity)
+        public async Task <PropertyEntity> AddAsync(PropertyEntity entity)
         {
             entity.StartDate = DateTime.UtcNow;
             await _context.Properties.AddAsync(entity);
             await _context.SaveChangesAsync();
+             return entity;
         }
 
-        public async Task<bool> CountAsync(Expression<Func<PropertyEntity, bool>> filter = null)
+        public async Task<int> CountAsync(Expression<Func<PropertyEntity, bool>> filter = null)
         {
             var query = _context.Properties.AsQueryable();
 
@@ -32,8 +33,8 @@ namespace E_Commerce.DataAccses.Repositories.Properties
                 query = query.Where(filter);
             }
 
-            var count = await query.CountAsync();
-            return count > 0;
+            return await query.CountAsync();
+            
         }
 
         public async Task DeleteAsync(int id)
@@ -119,5 +120,7 @@ namespace E_Commerce.DataAccses.Repositories.Properties
             _context.Properties.Update(entity);
             await _context.SaveChangesAsync();
         }
+
+       
     }
 }
