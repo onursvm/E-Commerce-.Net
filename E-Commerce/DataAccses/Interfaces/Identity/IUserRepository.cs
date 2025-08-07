@@ -10,5 +10,11 @@ namespace E_Commerce.DataAccses.Interfaces.Identity
         Task UpdateAsync(User user);
         Task DeleteAsync(int id);
         Task<bool> CheckPasswordAsync(int UserId, string password);
+
+        Task UpdateRefreshTokenAsync(int userId, string? refreshToken, DateTime? expiryTime);
+        Task<User?> GetByRefreshTokenAsync(string refreshToken);
+        Task CreatePasswordResetTokenAsync(int userId, string token, DateTime expires);
+        Task<User?> GetByPasswordResetTokenAsync(string token);
+        Task ResetPasswordAsync(int userId, string newPassword);
     }
 }

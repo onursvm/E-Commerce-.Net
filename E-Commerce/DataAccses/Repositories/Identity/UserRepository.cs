@@ -21,12 +21,23 @@ namespace E_Commerce.DataAccses.Repositories.Identity
             await _context.SaveChangesAsync();
         }
 
-        public Task<bool> CheckPasswordAsync(int UserId, string password)
+        public async Task<bool> CheckPasswordAsync(int userId, string password)
         {
-            var user = _context.Users.Find(UserId);
+            var user = await _context.Users.FindAsync(userId);
             if (user == null) return false;
 
-            return BCrypt.Net.BCrypt.VerifyAsync(password, user.PasswordHash); 
+            return BCrypt.Net.BCrypt.Verify(password, user.PasswordHash); 
+        }
+
+        public async Task CreatePasswordResetTokenAsync(int userId, string token, DateTime expires)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                user.PasswordResetToken = token;
+                user.ResetTokenExpires = expires;
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task DeleteAsync(int id)
@@ -53,11 +64,36 @@ namespace E_Commerce.DataAccses.Repositories.Identity
                 .FirstOrDefaultAsync(u => u.Id == id);
         }
 
+        public async Task<User?> GetByPasswordResetTokenAsync(string token)
+        {
+            return await _context.Users
+                    .FirstOrDefaultAsync(u => u.PasswordResetToken == token &&
+                                           u.ResetTokenExpires > DateTime.UtcNow);
+        }
+
+        public async Task<User?> GetByRefreshTokenAsync(string refreshToken)
+        {
+            return await _context.Users
+                    .FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+        }
+
         public async Task<User> GetByUsernameAsync(string username)
         {
             return await _context.Users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(u => u.UserName == username);
+        }
+
+        public async Task ResetPasswordAsync(int userId, string newPassword)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+                user.PasswordResetToken = null;
+                user.ResetTokenExpires = null;
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task UpdateAsync(User user)
@@ -75,6 +111,17 @@ namespace E_Commerce.DataAccses.Repositories.Identity
             _context.Users.Update(existingUser);
             await _context.SaveChangesAsync();
             
+        }
+
+        public async Task UpdateRefreshTokenAsync(int userId, string? refreshToken, DateTime? expiryTime)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                user.RefreshToken = refreshToken;
+                user.RefreshTokenExpiryTime = expiryTime;
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }
