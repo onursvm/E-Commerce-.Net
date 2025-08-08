@@ -1,4 +1,5 @@
-﻿using E_Commerce.Business.Services.IdentityServices.Interfaces;
+﻿using E_Commerce.Business.AuthServices.Interfaces;
+using E_Commerce.Business.Services.IdentityServices.Interfaces;
 using E_Commerce.Business.Services.PropertyServices.Interfaces;
 
 namespace E_Commerce.Business.Manager
@@ -11,6 +12,8 @@ namespace E_Commerce.Business.Manager
         private readonly Lazy<IPropertyStatusService> _propertyStatusService;
         private readonly Lazy<IPropertyTypeService> _propertyTypeService;
         private readonly Lazy<IPropertyPhotoService> _propertyPhotoService;
+        private readonly Lazy<IAuthService> _authService;
+        
 
 
         public ServiceManager(
@@ -19,7 +22,9 @@ namespace E_Commerce.Business.Manager
             IPropertyService propertyService,
             IPropertyStatusService propertyStatusService,
             IPropertyTypeService propertyTypeService,
-            IPropertyPhotoService propertyPhotoService
+            IPropertyPhotoService propertyPhotoService,
+            IAuthService authService
+           
             )
             
         {
@@ -29,7 +34,8 @@ namespace E_Commerce.Business.Manager
             _propertyStatusService = new Lazy<IPropertyStatusService>(() => propertyStatusService);
             _propertyTypeService = new Lazy<IPropertyTypeService>(() => propertyTypeService);
             _propertyPhotoService = new Lazy<IPropertyPhotoService>(() => propertyPhotoService);
-            
+            _authService = new Lazy<IAuthService>(() => authService);
+           
         }
         public IUserService UserService => _userService.Value;
         public IRoleService RoleService => _roleService.Value;
@@ -37,6 +43,7 @@ namespace E_Commerce.Business.Manager
         public IPropertyStatusService PropertyStatusService => _propertyStatusService.Value;
         public IPropertyTypeService PropertyTypeService => _propertyTypeService.Value;
         public IPropertyPhotoService PropertyPhotoService => _propertyPhotoService.Value;
-        
+        public IAuthService AuthService => _authService.Value;
+       
     }
 }

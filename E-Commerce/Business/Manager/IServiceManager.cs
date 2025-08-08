@@ -1,4 +1,5 @@
-﻿using E_Commerce.Business.Services.IdentityServices.Interfaces;
+﻿using E_Commerce.Business.AuthServices.Interfaces;
+using E_Commerce.Business.Services.IdentityServices.Interfaces;
 using E_Commerce.Business.Services.PropertyServices.Interfaces;
 
 namespace E_Commerce.Business.Manager
@@ -11,7 +12,8 @@ namespace E_Commerce.Business.Manager
         IPropertyStatusService PropertyStatusService { get; }
         IPropertyTypeService PropertyTypeService { get; }
         IPropertyPhotoService PropertyPhotoService { get; }
-        
+        IAuthService AuthService { get; }
+       
 
     }
 }

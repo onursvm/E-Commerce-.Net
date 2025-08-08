@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\authservices\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\authservices\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\authservices\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,13 +85,21 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\AuthServices\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "Business\\AuthServices\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\AuthServices\\Interfaces\\ITokenService.cs*",
-              "RelativeToolTip": "Business\\AuthServices\\Interfaces\\ITokenService.cs*",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\AuthServices\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Business\\AuthServices\\Interfaces\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T13:03:32.804Z",
@@ -112,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\AuthServices\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "Business\\AuthServices\\Interfaces\\IAuthService.cs",
               "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\AuthServices\\Interfaces\\IAuthService.cs",
               "RelativeToolTip": "Business\\AuthServices\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T13:02:09.489Z",
               "EditorCaption": ""
@@ -138,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\DataAccses\\Entities\\Identity\\User.cs",
               "RelativeDocumentMoniker": "DataAccses\\Entities\\Identity\\User.cs",
@@ -207,8 +215,8 @@
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
               "RelativeDocumentMoniker": "Business\\Manager\\ServiceManager.cs",
-              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\ServiceManager.cs*",
-              "RelativeToolTip": "Business\\Manager\\ServiceManager.cs*",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
+              "RelativeToolTip": "Business\\Manager\\ServiceManager.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T10:55:06.406Z",
@@ -317,14 +325,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T12:14:15.805Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
