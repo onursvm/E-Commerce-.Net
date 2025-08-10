@@ -3,6 +3,130 @@
   "WorkspaceRootPath": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\manager\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\manager\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\business\\manager\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\manager\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\propertyphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertyphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertyphoto\\setmainphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\setmainphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertyphoto\\uploadphotoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\uploadphotoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertyphoto\\addpropertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\addpropertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertyphoto\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\propertystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertystatus\\updatepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\updatepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertystatus\\createpropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\createpropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertystatus\\propertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\propertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertytype\\updatepropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\updatepropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertytype\\createpropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\createpropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\propertysummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertysummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\propertyfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertyfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\role\\updateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\updateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\role\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,19 +159,422 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Business\\Manager\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
+              "RelativeToolTip": "Business\\Manager\\ServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:43:59.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Business\\Manager\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Business\\Manager\\IServiceManager.cs",
+              "RelativeToolTip": "Business\\Manager\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:43:37.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyPhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyPhotoController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyPhotoController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyPhotoController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyPhotoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:42:28.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadPhotoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:41:37.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetMainPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:41:05.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:40:36.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:40:03.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropertyStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyStatusController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyStatusController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyStatusController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyStatusController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwNwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:38:16.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdatePropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:37:31.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreatePropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:37:05.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:36:44.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PropertyTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyTypeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyTypeController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyTypeController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyTypeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:31:47.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:14:46.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:05:03.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:01:12.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:16:38.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdatePropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:30:55.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreatePropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:30:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:24:18.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:16:51.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PropertySummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:12:50.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PropertyFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:12:16.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:11:47.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdatePropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:11:07.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreatePropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:10:24.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:09:29.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:03:57.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:03:19.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\RoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\RoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Role\\RoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\RoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:02:56.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AssignRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:00:15.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T07:59:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
               "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
               "RelativeToolTip": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T13:09:44.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 32,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\CreateUserDto.cs",
@@ -55,12 +582,11 @@
               "RelativeToolTip": "Presentation\\Dtos\\User\\CreateUserDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:07:44.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T13:07:44.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 33,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UserDto.cs",
@@ -68,8 +594,7 @@
               "RelativeToolTip": "Presentation\\Dtos\\User\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:07:19.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T13:07:19.333Z"
             }
           ]
         }
