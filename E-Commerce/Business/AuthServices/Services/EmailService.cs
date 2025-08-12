@@ -1,39 +1,73 @@
 ﻿using E_Commerce.Business.AuthServices.Interfaces;
 using System.Net.Mail;
 using System.Net;
+using Microsoft.Extensions.Logging;
 
 namespace E_Commerce.Business.AuthServices.Services
 {
     public class EmailService:IEmailService
     {
         private readonly IConfiguration _configuration;
+        private readonly ILogger<EmailService> _logger;
 
-        public EmailService(IConfiguration configuration)
+        public EmailService(IConfiguration configuration, ILogger<EmailService> logger)
         {
             _configuration = configuration;
+            _logger = logger;
         }
 
         public async Task SendEmailAsync(string to, string subject, string body)
         {
-            //kullandığımız emaİL servisine göre
-            using (var client = new SmtpClient(_configuration["Email:Host"]))
+            var emailSection = _configuration.GetSection("EmailSettings");
+            var host = emailSection["SmtpServer"];
+            var port = emailSection.GetValue<int?>("Port");
+            var username = emailSection["Username"];
+            var password = emailSection["Password"];
+            var fromAddress = emailSection["FromAddress"];
+            var displayName = emailSection["DisplayName"];
+            var enableSsl = emailSection.GetValue<bool?>("EnableSsl") ?? true;
+            var failSilently = emailSection.GetValue<bool?>("FailSilently") ?? true;
+
+            if (string.IsNullOrWhiteSpace(host) || port is null || string.IsNullOrWhiteSpace(fromAddress))
             {
-                client.Port = int.Parse(_configuration["Email:Port"]);
-                client.Credentials = new NetworkCredential(
-                    _configuration["Email:Username"],
-                    _configuration["Email:Password"]);
-                client.EnableSsl = true;
+                throw new InvalidOperationException("EmailSettings configuration is missing required values (SmtpServer, Port, FromAddress).");
+            }
+
+            using (var client = new SmtpClient(host))
+            {
+                client.Port = port.Value;
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.UseDefaultCredentials = false;
+                if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
+                {
+                    client.Credentials = new NetworkCredential(username, password);
+                }
+                client.EnableSsl = enableSsl;
 
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress(_configuration["Email:From"]),
+                    From = string.IsNullOrWhiteSpace(displayName)
+                        ? new MailAddress(fromAddress)
+                        : new MailAddress(fromAddress, displayName),
                     Subject = subject,
                     Body = body,
                     IsBodyHtml = true,
                 };
                 mailMessage.To.Add(to);
 
-                await client.SendMailAsync(mailMessage);
+                try
+                {
+                    await client.SendMailAsync(mailMessage);
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Failed to send email to {To}", to);
+                    if (!failSilently)
+                    {
+                        throw;
+                    }
+                    // else swallow to prevent 500s in endpoints like forgot-password
+                }
             }
         }
 

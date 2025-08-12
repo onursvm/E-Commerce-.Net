@@ -1,4 +1,5 @@
 ﻿using E_Commerce.DataAccses.Entities.Identity;
+using E_Commerce.Presentation.Dtos.Auth;
 
 namespace E_Commerce.Business.Services.IdentityServices.Interfaces
 {
@@ -9,6 +10,7 @@ namespace E_Commerce.Business.Services.IdentityServices.Interfaces
         Task<User> UpdateUserAsync(int id, User updatedUser);
         Task DeleteUserAsync(int id);
         Task<bool> ToggleUserStatusAsync(int id, bool isActive);
+        Task UpdateProfileAsync(int userId, UpdateProfileDto updateProfileDto);
 
         // Okuma
         Task<User> GetUserByIdAsync(int id);

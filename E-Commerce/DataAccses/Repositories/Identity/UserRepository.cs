@@ -16,7 +16,6 @@ namespace E_Commerce.DataAccses.Repositories.Identity
 
         public async Task AddAsync(User user)
         {
-         user.PasswordHash=BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
@@ -52,9 +51,10 @@ namespace E_Commerce.DataAccses.Repositories.Identity
 
         public async Task<User> GetByEmailAsync(string email)
         {
+            email = email.Trim().ToLower();
             return await _context.Users
                 .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.Email == email);
+                .FirstOrDefaultAsync(u => u.Email.ToLower() == email);
         }
 
         public async Task<User> GetByIdAsync(int id)
@@ -62,6 +62,13 @@ namespace E_Commerce.DataAccses.Repositories.Identity
            return await _context.Users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(u => u.Id == id);
+        }
+
+        public async Task<IEnumerable<User>> GetAllAsync()
+        {
+            return await _context.Users
+                .AsNoTracking()
+                .ToListAsync();
         }
 
         public async Task<User?> GetByPasswordResetTokenAsync(string token)
@@ -79,9 +86,10 @@ namespace E_Commerce.DataAccses.Repositories.Identity
 
         public async Task<User> GetByUsernameAsync(string username)
         {
+            username = username.Trim().ToLower();
             return await _context.Users
                 .AsNoTracking()
-                .FirstOrDefaultAsync(u => u.UserName == username);
+                .FirstOrDefaultAsync(u => u.UserName.ToLower() == username);
         }
 
         public async Task ResetPasswordAsync(int userId, string newPassword)
@@ -103,14 +111,17 @@ namespace E_Commerce.DataAccses.Repositories.Identity
 
             existingUser.UserName = user.UserName;
             existingUser.Email = user.Email;
+            existingUser.FullName = user.FullName;
             existingUser.IsActive = user.IsActive;
-            if (!string.IsNullOrEmpty(user.PasswordHash))
+            
+            // Sadece PasswordHash değişmişse hash'le
+            if (!string.IsNullOrEmpty(user.PasswordHash) && user.PasswordHash != existingUser.PasswordHash)
             {
                 existingUser.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
             }
+            
             _context.Users.Update(existingUser);
             await _context.SaveChangesAsync();
-            
         }
 
         public async Task UpdateRefreshTokenAsync(int userId, string? refreshToken, DateTime? expiryTime)

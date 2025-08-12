@@ -13,18 +13,20 @@ namespace E_Commerce.Business.AuthServices.Services
     public class AuthService : IAuthService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IRoleService _roleService;
         private readonly IConfiguration _configuration;
         private readonly IEmailService _emailService;
 
         public AuthService(
             IUserRepository userRepository,
+            IRoleService roleService,
             IConfiguration configuration,
             IEmailService emailService)
         {
             _userRepository = userRepository;
+            _roleService = roleService;
             _configuration = configuration;
             _emailService = emailService;
-
         }
 
         public async Task<bool> ChangePasswordAsync(int userId, string currentPassword, string newPassword)
@@ -36,19 +38,30 @@ namespace E_Commerce.Business.AuthServices.Services
             return true;
         }
 
-        public string GenerateJwtToken(User user)
+        public async Task<string> GenerateJwtToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_configuration["JwtSettings:Secret"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"]);
+
+            // Kullanıcının rollerini al
+            var roles = await GetUserRolesAsync(user.Id);
+            var roleClaims = roles.Select(role => new Claim(ClaimTypes.Role, role.Name)).ToList();
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(ClaimTypes.Name, user.UserName)
+            };
+            
+            // Rolleri claims'e ekle
+            claims.AddRange(roleClaims);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
-                Subject = new ClaimsIdentity(new[]
-                {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.Name, user.UserName)
-                }),
+                Subject = new ClaimsIdentity(claims),
+                Issuer = _configuration["JwtSettings:Issuer"],
+                Audience = _configuration["JwtSettings:Audience"],
                 Expires = DateTime.UtcNow.AddMinutes(_configuration.GetValue<int>("JwtSettings:TokenLifetimeMinutes")),
                 SigningCredentials = new SigningCredentials(
                     new SymmetricSecurityKey(key),
@@ -57,6 +70,11 @@ namespace E_Commerce.Business.AuthServices.Services
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
+        }
+
+        private async Task<IEnumerable<Role>> GetUserRolesAsync(int userId)
+        {
+            return await _roleService.GetRolesForUserAsync(userId);
         }
 
         public async Task<string> GeneratePasswordResetTokenAsync(string email)
@@ -154,7 +172,7 @@ namespace E_Commerce.Business.AuthServices.Services
         public ClaimsPrincipal? ValidateJwtToken(string token)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_configuration["JwtSettings:Secret"]);
+            var key = Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"]);
 
             try
             {

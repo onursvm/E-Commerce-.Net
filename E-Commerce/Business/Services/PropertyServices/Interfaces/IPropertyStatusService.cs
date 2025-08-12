@@ -7,6 +7,7 @@ namespace E_Commerce.Business.Services.PropertyServices.Interfaces
         //Crud
         Task<PropertyStatus>GetBYIdAsync(int id);
         Task<IEnumerable<PropertyStatus>> GetBYIdAsync();
+        Task<IEnumerable<PropertyStatus>> GetAllAsync();
 
         Task<PropertyStatus> CreateAsync(string statusName);
         Task UpdateAsync(int id,string newStatusName);

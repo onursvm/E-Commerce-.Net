@@ -11,7 +11,7 @@ namespace E_Commerce.Business.AuthServices.Interfaces
         Task<bool> RevokeTokenAsync(string token);
 
         //Token Operations
-        string GenerateJwtToken(User user);
+        Task<string> GenerateJwtToken(User user);
         ClaimsPrincipal? ValidateJwtToken(string token);
         Task<string> GenerateRefreshTokenAsync(int userId);
         Task<bool> ValidateRefreshTokenAsync(int userId, string refreshToken);

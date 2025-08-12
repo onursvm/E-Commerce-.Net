@@ -1,18 +1,329 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\",
+  "WorkspaceRootPath": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\authservices\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\authservices\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\identity\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\identity\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\authservices\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\authservices\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\identity\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\identity\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\identityservices\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\identityservices\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\identityservices\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\identityservices\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\identity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\manager\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\manager\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\authservices\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\authservices\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\properties\\propertystatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\properties\\propertystatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\service\\propertytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\service\\propertytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\properties\\propertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\properties\\propertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\service\\propertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\service\\propertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\properties\\propertyphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\properties\\propertyphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\properties\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\properties\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\identityservices\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\identityservices\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\identity\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\identity\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\context\\commercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\context\\commercedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\context\\commercedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\context\\commercedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\properties\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\properties\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\repositories\\properties\\unitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\repositories\\properties\\unitofwork .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\properties\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\properties\\ipropertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\manager\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\manager\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\user\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\userstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\source\\repos\\e-commerce\\presentation\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\user\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\user\\assignroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\role\\updateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\updateroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\role\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\role\\createroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertytype\\updatepropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\updatepropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertytype\\createpropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertytype\\createpropertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertystatus\\updatepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\updatepropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertystatus\\propertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\propertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertystatus\\createpropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertystatus\\createpropertystatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertyphoto\\uploadphotoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\uploadphotoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertyphoto\\setmainphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\setmainphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertyphoto\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\propertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\propertyphoto\\addpropertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\propertyphoto\\addpropertyphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\updatepropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\property\\propertysummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertysummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\property\\propertyfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertyfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\property\\createpropertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\propertystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertystatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\propertyphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertyphotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\presentation\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:presentation\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\interfaces\\ipropertytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\interfaces\\ipropertytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\interfaces\\ipropertystatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\interfaces\\ipropertystatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\interfaces\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\propertyservices\\interfaces\\ipropertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\propertyservices\\interfaces\\ipropertyphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\services\\identityservices\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\services\\identityservices\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\business\\authservices\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:business\\authservices\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\identity\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\identity\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\properties\\ipropertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\properties\\ipropertytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\properties\\ipropertystatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\properties\\ipropertystatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\interfaces\\properties\\ipropertyphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\interfaces\\properties\\ipropertyphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\properties\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\properties\\propertytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\properties\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\properties\\propertystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\properties\\propertyphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\properties\\propertyphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\identity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\identity\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|c:\\users\\onurs\\onedrive\\masa\u00FCst\u00FC\\e-commerce\\dataaccses\\entities\\identity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD3E78A-188B-430B-B631-555E1852121F}|E-Commerce.csproj|solutionrelative:dataaccses\\entities\\identity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +333,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,42 +345,976 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
-              "RelativeToolTip": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\AuthServices\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Business\\AuthServices\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:09:44.675Z",
+              "WhenOpened": "2025-08-11T07:13:43.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Business\\AuthServices\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Services\\AuthService.cs",
+              "RelativeToolTip": "Business\\AuthServices\\Services\\AuthService.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAYwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:14:03.679Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Identity\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Identity\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Identity\\IUserRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Identity\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:12:14.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\CreateUserDto.cs",
-              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\CreateUserDto.cs",
-              "RelativeToolTip": "Presentation\\Dtos\\User\\CreateUserDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Identity\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Identity\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Identity\\UserRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Identity\\UserRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:07:44.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T07:12:37.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UserDto.cs",
-              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\User\\UserDto.cs",
-              "RelativeToolTip": "Presentation\\Dtos\\User\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAowPoAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T13:07:19.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T08:16:38.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\IdentityServices\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Service\\UserService.cs",
+              "RelativeToolTip": "Business\\Services\\IdentityServices\\Service\\UserService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:05.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\IdentityServices\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Business\\Services\\IdentityServices\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:14:49.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\User.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Identity\\User.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\User.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Identity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:09:48.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Business\\Manager\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Manager\\ServiceManager.cs",
+              "RelativeToolTip": "Business\\Manager\\ServiceManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:43:59.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Business\\AuthServices\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Services\\EmailService.cs",
+              "RelativeToolTip": "Business\\AuthServices\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:14:11.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Service\\PropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:49.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PropertyStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyStatusRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Properties\\PropertyStatusRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyStatusRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Properties\\PropertyStatusRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:12:59.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PropertyTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyTypeService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Service\\PropertyTypeService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyTypeService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Service\\PropertyTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:16:03.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertyTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyTypeRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Properties\\PropertyTypeRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyTypeRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Properties\\PropertyTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:13:08.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyPhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Service\\PropertyPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:41.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyPhotoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Properties\\PropertyPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyPhotoRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Properties\\PropertyPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:12:47.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Properties\\PropertyRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\PropertyRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Properties\\PropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:12:53.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\IdentityServices\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Service\\RoleService.cs",
+              "RelativeToolTip": "Business\\Services\\IdentityServices\\Service\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:14:59.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Identity\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Identity\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Identity\\RoleRepository.cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Identity\\RoleRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:12:30.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CommerceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Context\\CommerceDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Context\\CommerceDbContext.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Context\\CommerceDbContext.cs",
+              "RelativeToolTip": "DataAccses\\Context\\CommerceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:06:02.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\TokenDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:55.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\UserInfoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\UserInfoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\UserInfoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\UserInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:20:01.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CommerceDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Context\\CommerceDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Context\\CommerceDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Context\\CommerceDbContextFactory.cs",
+              "RelativeToolTip": "DataAccses\\Context\\CommerceDbContextFactory.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:10:47.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T08:10:33.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\Property.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Properties\\Property.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\Property.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Properties\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:10:03.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UnitOfWork .cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\UnitOfWork .cs",
+              "RelativeDocumentMoniker": "DataAccses\\Repositories\\Properties\\UnitOfWork .cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Repositories\\Properties\\UnitOfWork .cs",
+              "RelativeToolTip": "DataAccses\\Repositories\\Properties\\UnitOfWork .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:46:42.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Properties\\IPropertyRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Properties\\IPropertyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:17.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Manager\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Business\\Manager\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Manager\\IServiceManager.cs",
+              "RelativeToolTip": "Business\\Manager\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:43:37.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:01.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\UserStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T07:59:37.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UserDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UserDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:07:19.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\UpdateUserDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:09:44.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\CreateUserDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T13:07:44.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AssignRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\User\\AssignRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:00:15.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\UpdateRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:03:57.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\RoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\RoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\RoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\RoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:02:56.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Role\\CreateRoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:03:19.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UpdatePropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\UpdatePropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:30:55.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:24:18.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreatePropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyType\\CreatePropertyTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:30:05.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdatePropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\UpdatePropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:37:31.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\PropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:36:44.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreatePropertyStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyStatus\\CreatePropertyStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:37:05.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UploadPhotoResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\UploadPhotoResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:41:37.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SetMainPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\SetMainPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:41:05.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\PropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:40:03.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddPropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\PropertyPhoto\\AddPropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:40:36.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdatePropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\UpdatePropertyDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:11:07.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PropertySummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertySummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:12:50.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PropertyPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyPhotoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:11:47.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PropertyFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertyFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:12:16.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\PropertyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:09:29.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CreatePropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Property\\CreatePropertyDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:10:24.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ResetPasswordDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:49.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:42.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\RefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\RefreshTokenDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:36.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:31.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\ForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\ForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:25.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:18.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Presentation\\Dtos\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Dtos\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "Presentation\\Dtos\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:19:12.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PropertyStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyStatusController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyStatusController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyStatusController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyStatusController.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAwwPwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:38:16.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "PropertyTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyTypeController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyTypeController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyTypeController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyTypeController.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAwwB0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:31:47.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAwwOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:05:03.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAADwv2sBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:01:12.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PropertyPhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyPhotoController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyPhotoController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyPhotoController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyPhotoController.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAwwCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:42:28.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Presentation\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAGoBAAAAAAAAAADwv5EBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T08:14:46.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IPropertyTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyTypeService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyTypeService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyTypeService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:33.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IPropertyStatusService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyStatusService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyStatusService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyStatusService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:26.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IPropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:19.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IPropertyPhotoService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyPhotoService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyPhotoService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\PropertyServices\\Interfaces\\IPropertyPhotoService.cs",
+              "RelativeToolTip": "Business\\Services\\PropertyServices\\Interfaces\\IPropertyPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:15:12.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "Business\\Services\\IdentityServices\\Interfaces\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\Services\\IdentityServices\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "Business\\Services\\IdentityServices\\Interfaces\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:14:43.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Business\\AuthServices\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\Business\\AuthServices\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Business\\AuthServices\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:13:54.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Identity\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Identity\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Identity\\IRoleRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Identity\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:44.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IPropertyTypeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyTypeRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Properties\\IPropertyTypeRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyTypeRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Properties\\IPropertyTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:29.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IPropertyStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyStatusRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Properties\\IPropertyStatusRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyStatusRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Properties\\IPropertyStatusRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:23.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IPropertyPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyPhotoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Interfaces\\Properties\\IPropertyPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Interfaces\\Properties\\IPropertyPhotoRepository.cs",
+              "RelativeToolTip": "DataAccses\\Interfaces\\Properties\\IPropertyPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:11:11.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "PropertyType.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyType.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Properties\\PropertyType.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyType.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Properties\\PropertyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:10:25.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PropertyStatus.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyStatus.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Properties\\PropertyStatus.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyStatus.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Properties\\PropertyStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:10:18.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "PropertyPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyPhoto.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Properties\\PropertyPhoto.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Properties\\PropertyPhoto.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Properties\\PropertyPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:10:12.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\UserRole.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Identity\\UserRole.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\UserRole.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Identity\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:09:54.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\Role.cs",
+              "RelativeDocumentMoniker": "DataAccses\\Entities\\Identity\\Role.cs",
+              "ToolTip": "C:\\Users\\onurs\\OneDrive\\Masa\u00FCst\u00FC\\E-Commerce\\DataAccses\\Entities\\Identity\\Role.cs",
+              "RelativeToolTip": "DataAccses\\Entities\\Identity\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:09:42.728Z"
             }
           ]
         }

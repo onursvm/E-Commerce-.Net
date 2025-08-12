@@ -58,6 +58,11 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
             return await _statusRepository.GetAllAsync();
         }
 
+        public async Task<IEnumerable<PropertyStatus>> GetAllAsync()
+        {
+            return await _statusRepository.GetAllAsync();
+        }
+
         public async Task<int> GetPropetyCountByStatusAsync(int statusId)
         {
             return await _statusRepository.GetPropertyCountByStatusAsync(statusId);

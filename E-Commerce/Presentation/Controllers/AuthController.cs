@@ -4,6 +4,7 @@ using E_Commerce.Presentation.Dtos.Auth;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Hosting;
 
 namespace E_Commerce.Presentation.Controllers
 {
@@ -12,10 +13,12 @@ namespace E_Commerce.Presentation.Controllers
     public class AuthController: ControllerBase
     {
         private readonly IServiceManager _serviceManager;
+        private readonly IWebHostEnvironment _env;
 
-        public AuthController(IServiceManager serviceManager)
+        public AuthController(IServiceManager serviceManager, IWebHostEnvironment env)
         {
             _serviceManager = serviceManager;
+            _env = env;
         }
 
         /// <summary>
@@ -42,7 +45,7 @@ namespace E_Commerce.Presentation.Controllers
                 var user = await _serviceManager.AuthService.LoginAsync(loginDto.Email, loginDto.Password);
 
                 // JWT Token oluştur
-                var accessToken = _serviceManager.AuthService.GenerateJwtToken(user);
+                var accessToken = await _serviceManager.AuthService.GenerateJwtToken(user);
                 var refreshToken = await _serviceManager.AuthService.GenerateRefreshTokenAsync(user.Id);
 
                 // Kullanıcı rolleri al
@@ -127,7 +130,7 @@ namespace E_Commerce.Presentation.Controllers
                 }
 
                 // JWT Token oluştur
-                var accessToken = _serviceManager.AuthService.GenerateJwtToken(createdUser);
+                var accessToken = await _serviceManager.AuthService.GenerateJwtToken(createdUser);
                 var refreshToken = await _serviceManager.AuthService.GenerateRefreshTokenAsync(createdUser.Id);
 
                 var response = new AuthResponseDto
@@ -184,7 +187,7 @@ namespace E_Commerce.Presentation.Controllers
                 }
 
                 var user = await _serviceManager.AuthService.RefreshTokenAsync(refreshTokenDto.AccessToken, refreshTokenDto.RefreshToken);
-                var newAccessToken = _serviceManager.AuthService.GenerateJwtToken(user);
+                var newAccessToken = await _serviceManager.AuthService.GenerateJwtToken(user);
 
                 var response = new TokenDto
                 {
@@ -286,7 +289,8 @@ namespace E_Commerce.Presentation.Controllers
 
                 if (token != null)
                 {
-                    return Ok(ApiResponse<object>.SuccessResult(null, "Password reset email sent"));
+                    var data = _env != null && _env.EnvironmentName == "Development" ? new { Token = token } : null;
+                    return Ok(ApiResponse<object>.SuccessResult(data, "Password reset email sent"));
                 }
 
                 return BadRequest(ApiResponse<object>.ErrorResult("User not found"));
@@ -340,7 +344,12 @@ namespace E_Commerce.Presentation.Controllers
         {
             try
             {
-                var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+                {
+                    return Unauthorized(ApiResponse<UserInfoDto>.ErrorResult("Invalid user token"));
+                }
+
                 var user = await _serviceManager.UserService.GetUserByIdAsync(userId);
                 var userRoles = await _serviceManager.RoleService.GetRolesForUserAsync(userId);
 
@@ -359,6 +368,51 @@ namespace E_Commerce.Presentation.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, ApiResponse<UserInfoDto>.ErrorResult("Internal server error", new List<string> { ex.Message }));
+            }
+        }
+
+        /// <summary>
+        /// Kullanıcı profil bilgilerini güncelle
+        /// </summary>
+        /// <param name="updateProfileDto">Güncelleme bilgileri</param>
+        /// <returns>Güncelleme sonucu</returns>
+        [HttpPut("profile")]
+        [Authorize]
+        public async Task<ActionResult<ApiResponse<object>>> UpdateProfile([FromBody] UpdateProfileDto updateProfileDto)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    var errors = ModelState.Values
+                        .SelectMany(v => v.Errors)
+                        .Select(e => e.ErrorMessage)
+                        .ToList();
+
+                    return BadRequest(ApiResponse<object>.ErrorResult("Validation failed", errors));
+                }
+
+                var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out int userId))
+                {
+                    return Unauthorized(ApiResponse<object>.ErrorResult("Invalid user token"));
+                }
+
+                await _serviceManager.UserService.UpdateProfileAsync(userId, updateProfileDto);
+
+                return Ok(ApiResponse<object>.SuccessResult(null, "Profile updated successfully"));
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(ApiResponse<object>.ErrorResult(ex.Message));
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ApiResponse<object>.ErrorResult(ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ApiResponse<object>.ErrorResult("Internal server error", new List<string> { ex.Message }));
             }
         }
     }

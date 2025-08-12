@@ -1,4 +1,6 @@
-﻿namespace E_Commerce.Presentation.Dtos.Property
+﻿using E_Commerce.Presentation.Dtos.PropertyPhoto;
+
+namespace E_Commerce.Presentation.Dtos.Property
 {
     public class PropertyDto
     {

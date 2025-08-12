@@ -27,7 +27,7 @@ namespace E_Commerce.Presentation.Controllers
         {
             try
             {
-                var propertyStatuses = await _serviceManager.PropertyService.PropertyStatusService.GetBYIdAsync();
+                var propertyStatuses = await _serviceManager.PropertyService.PropertyStatusService.GetAllAsync();
                 var propertyStatusDtos = new List<PropertyStatusDto>();
 
                 foreach (var status in propertyStatuses)

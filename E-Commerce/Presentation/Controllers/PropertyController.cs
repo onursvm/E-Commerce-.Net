@@ -2,6 +2,7 @@
 using E_Commerce.DataAccses.Entities.Properties;
 using E_Commerce.Presentation.Dtos.Auth;
 using E_Commerce.Presentation.Dtos.Property;
+using E_Commerce.Presentation.Dtos.PropertyPhoto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;

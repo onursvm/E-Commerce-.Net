@@ -2,6 +2,7 @@
 using E_Commerce.DataAccses.Entities.Properties;
 using Microsoft.EntityFrameworkCore;
 using BCrypt.Net;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Commerce.DataAccses.Context
 {
@@ -20,6 +21,10 @@ namespace E_Commerce.DataAccses.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Property>()
+              .Property(p => p.Price)
+              .HasPrecision(18, 2);
+
             modelBuilder.Entity<Property>()
                 .HasMany(p => p.Photos)
                 .WithOne(p => p.Property)
@@ -48,12 +53,16 @@ namespace E_Commerce.DataAccses.Context
             modelBuilder.Entity<PropertyType>().HasData(
                 new PropertyType { Id = 1, Name = "Daire" },
                 new PropertyType { Id = 2, Name = "Villa" },
-                new PropertyType { Id = 3, Name = "Arsa" }
+                new PropertyType { Id = 3, Name = "Arsa" },
+                new PropertyType { Id = 4, Name = "Müstakil Ev" },
+                new PropertyType { Id = 5, Name = "Dubleks" },
+                new PropertyType { Id = 6, Name = "Tripleks" }
                 );
 
             modelBuilder.Entity<PropertyStatus>().HasData(
                 new PropertyStatus { Id = 1, Name = "Satılık" },
-                new PropertyStatus { Id = 2, Name = "Kiralık" }
+                new PropertyStatus { Id = 2, Name = "Kiralık" },
+                new PropertyStatus { Id = 3, Name = "Günlük Kiralık" }
                 );
 
             modelBuilder.Entity<Role>().HasData(
@@ -62,6 +71,7 @@ namespace E_Commerce.DataAccses.Context
                     Id = 1,
                     Name = "Admin",
                     Description = "Sistem Yöneticisi"
+
                 },
                 new Role
                 {
@@ -75,10 +85,10 @@ namespace E_Commerce.DataAccses.Context
                 {
                     Id = 1,
                     UserName = "admin",
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"),
-
+                    PasswordHash = "$2a$14$NU1oogDFUzLq0exgOgs1f.6/DZHDuZ7Jc0HdbmkkdHY733IC7SU7G",
                     Email = "admin@emlak.com",
-                    IsActive = true
+                    IsActive = true,
+                    FullName = "Admin Kullanıcı"
                 }
                 );
             modelBuilder.Entity<UserRole>().HasData(

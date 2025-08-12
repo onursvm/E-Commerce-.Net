@@ -1,6 +1,7 @@
 ﻿using E_Commerce.Business.Services.IdentityServices.Interfaces;
 using E_Commerce.DataAccses.Entities.Identity;
 using E_Commerce.DataAccses.Interfaces.Identity;
+using E_Commerce.Presentation.Dtos.Auth;
 
 namespace E_Commerce.Business.Services.IdentityServices.Service
 {
@@ -35,6 +36,11 @@ namespace E_Commerce.Business.Services.IdentityServices.Service
             if (string.IsNullOrWhiteSpace(password))
                 throw new ArgumentException("Password cannot be empty");
 
+            user.Email = user.Email.Trim();
+            user.UserName = user.UserName.Trim();
+            if (!string.IsNullOrWhiteSpace(user.FullName))
+                user.FullName = user.FullName.Trim();
+
             // Email kontrolü
             if (await _userRepository.GetByEmailAsync(user.Email) != null)
                 throw new InvalidOperationException("Email already in use");
@@ -64,9 +70,9 @@ namespace E_Commerce.Business.Services.IdentityServices.Service
             return await _userRepository.GetByEmailAsync(email) != null;
         }
 
-        public Task<IEnumerable<User>> GetAllUsersAsync()
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
-            throw new NotImplementedException();
+            return await _userRepository.GetAllAsync();
         }
 
         public async Task<User> GetUserByEmailAsync(string email)
@@ -97,11 +103,43 @@ namespace E_Commerce.Business.Services.IdentityServices.Service
             return user.IsActive;
         }
 
+        public async Task UpdateProfileAsync(int userId, UpdateProfileDto updateProfileDto)
+        {
+            var user = await _userRepository.GetByIdAsync(userId);
+            if (user == null)
+                throw new KeyNotFoundException("User not found");
+
+            // Email değişiklik kontrolü
+            if (user.Email != updateProfileDto.Email &&
+                await _userRepository.GetByEmailAsync(updateProfileDto.Email) != null)
+            {
+                throw new InvalidOperationException("New email already in use");
+            }
+
+            // Username değişiklik kontrolü
+            if (user.UserName != updateProfileDto.UserName &&
+                await _userRepository.GetByUsernameAsync(updateProfileDto.UserName) != null)
+            {
+                throw new InvalidOperationException("Username already taken");
+            }
+
+            user.UserName = updateProfileDto.UserName.Trim();
+            user.Email = updateProfileDto.Email.Trim();
+            user.FullName = updateProfileDto.FullName?.Trim();
+
+            await _userRepository.UpdateAsync(user);
+        }
+
         public async Task<User> UpdateUserAsync(int id, User updatedUser)
         {
             var existingUser = await _userRepository.GetByIdAsync(id);
             if (existingUser == null)
                 throw new KeyNotFoundException("User not found");
+
+            updatedUser.Email = updatedUser.Email.Trim();
+            updatedUser.UserName = updatedUser.UserName.Trim();
+            if (!string.IsNullOrWhiteSpace(updatedUser.FullName))
+                updatedUser.FullName = updatedUser.FullName.Trim();
 
             // Email değişiklik kontrolü
             if (existingUser.Email != updatedUser.Email &&
