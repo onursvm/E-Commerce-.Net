@@ -11,7 +11,7 @@ namespace E_Commerce.Presentation.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class PropertyPhotoController: ControllerBase
+    public class PropertyPhotoController : ControllerBase
     {
         private readonly IServiceManager _serviceManager;
 

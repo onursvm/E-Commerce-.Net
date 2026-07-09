@@ -120,7 +120,5 @@ namespace E_Commerce.DataAccses.Repositories.Properties
             _context.Properties.Update(entity);
             await _context.SaveChangesAsync();
         }
-
-       
     }
 }

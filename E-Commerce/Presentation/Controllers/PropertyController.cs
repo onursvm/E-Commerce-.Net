@@ -202,29 +202,30 @@ namespace E_Commerce.Presentation.Controllers
                 var currentUserId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
                 var existingProperty = await _serviceManager.PropertyService.GetByIdAsync(id);
 
+                if (existingProperty == null)
+                {
+                    return NotFound(ApiResponse<PropertyDto>.ErrorResult("Property not found"));
+                }
+
                 // Sadece property sahibi veya admin güncelleyebilir
                 if (existingProperty.UserId != currentUserId && !User.IsInRole("Admin"))
                 {
                     return Forbid();
                 }
 
-                var updatedProperty = new Property
-                {
-                    Id = id,
-                    Title = updatePropertyDto.Title,
-                    Description = updatePropertyDto.Description,
-                    Price = updatePropertyDto.Price,
-                    Currency = updatePropertyDto.Currency,
-                    EndDate = updatePropertyDto.EndDate,
-                    Location = updatePropertyDto.Location,
-                    UserId = existingProperty.UserId,
-                    PropertyTypeId = updatePropertyDto.PropertyTypeId,
-                    PropertyStatusId = updatePropertyDto.PropertyStatusId,
-                    StartDate = existingProperty.StartDate
-                };
+                // Direkt mevcut entity üzerinde güncelleme yap
+                existingProperty.Title = updatePropertyDto.Title;
+                existingProperty.Description = updatePropertyDto.Description;
+                existingProperty.Price = updatePropertyDto.Price;
+                existingProperty.Currency = updatePropertyDto.Currency;
+                existingProperty.EndDate = updatePropertyDto.EndDate;
+                existingProperty.Location = updatePropertyDto.Location;
+                existingProperty.PropertyTypeId = updatePropertyDto.PropertyTypeId;
+                existingProperty.PropertyStatusId = updatePropertyDto.PropertyStatusId;
 
-                await _serviceManager.PropertyService.UpdateAsync(updatedProperty);
-                var propertyDto = await MapToPropertyDto(updatedProperty);
+                await _serviceManager.PropertyService.UpdateAsync(existingProperty);
+
+                var propertyDto = await MapToPropertyDto(existingProperty);
 
                 return Ok(ApiResponse<PropertyDto>.SuccessResult(propertyDto, "Property updated successfully"));
             }
@@ -237,6 +238,9 @@ namespace E_Commerce.Presentation.Controllers
                 return StatusCode(500, ApiResponse<PropertyDto>.ErrorResult("Internal server error", new List<string> { ex.Message }));
             }
         }
+
+
+
 
         /// <summary>
         /// Property sil

@@ -1,10 +1,11 @@
 ﻿using E_Commerce.Business.Services.PropertyServices.Interfaces;
 using E_Commerce.DataAccses.Entities.Properties;
 using E_Commerce.DataAccses.Interfaces.Properties;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Business.Services.PropertyServices.Service
 {
-    public class PropertyService:IPropertyService
+    public class PropertyService : IPropertyService
     {
         private readonly IPropertyRepository _repository;
         private readonly IPropertyPhotoService _photoService;
@@ -31,7 +32,7 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
 
         public async Task<decimal> CalculateTotalRevenueAsync()
         {
-            var properties = await _repository.GetFilteredAsync(p=>p.EndDate<DateTime.Now);
+            var properties = await _repository.GetFilteredAsync(p => p.EndDate < DateTime.Now);
             return properties.Sum(p => p.Price);
         }
 
@@ -39,10 +40,10 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
         {
             if (property.Price <= 0)
                 throw new ArgumentException("Price must be greater than zero");
-            
-            if(property.EndDate <= property.StartDate)
+
+            if (property.EndDate <= property.StartDate)
                 throw new ArgumentException("End date cannot be after start date");
-            
+
             var properType = await _typeService.GetTypeIdAsync(property.PropertyTypeId);
             if (properType == null)
                 throw new KeyNotFoundException("Property type not found");
@@ -55,9 +56,9 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
             var property = await _repository.GetByIdAsync(id);
             if (property == null)
                 throw new KeyNotFoundException("Property not found");
-            var photos=await _photoService.GetPhotosBypPropertyAsync(id);
-            if(photos.Any())
-            throw new InvalidOperationException("Cannot delete property with existing photos");
+            var photos = await _photoService.GetPhotosBypPropertyAsync(id);
+            if (photos.Any())
+                throw new InvalidOperationException("Cannot delete property with existing photos");
 
             await _repository.DeleteAsync(id);
         }
@@ -68,7 +69,7 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
             var activeStatusIds = activeStatuses.Select(s => s.Id).ToList();
 
             return await _repository.CountAsync(p =>
-            activeStatusIds.Contains(p.PropertyStatusId) && 
+            activeStatusIds.Contains(p.PropertyStatusId) &&
             p.EndDate > DateTime.Now);
         }
 
@@ -85,32 +86,32 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
 
         public async Task<Property> GetByIdAsync(int id)
         {
-            var property =await _repository.GetByIdAsync(id);
+            var property = await _repository.GetByIdAsync(id);
             return property ?? throw new KeyNotFoundException("Property not found");
         }
 
         public async Task<IEnumerable<Property>> GetByLocationAsync(string location)
         {
-            if(string.IsNullOrWhiteSpace(location))
+            if (string.IsNullOrWhiteSpace(location))
                 return Enumerable.Empty<Property>();
 
-            return await _repository.GetFilteredAsync(p => 
+            return await _repository.GetFilteredAsync(p =>
             p.Location.Contains(location, StringComparison.OrdinalIgnoreCase));
-            
+
         }
 
         public async Task<IEnumerable<Property>> GetByPriceRangeAsync(decimal minPrice, decimal maxPrice)
         {
-            if(minPrice>maxPrice)
+            if (minPrice > maxPrice)
                 throw new ArgumentException("Minimum price cannot be greater than maximum price");
-            
+
             return await _repository.GetFilteredAsync(p =>
                 p.Price >= minPrice && p.Price <= maxPrice);
         }
 
         public async Task<IEnumerable<Property>> GetByStatusAsync(int statusId)
         {
-            return await _repository.GetFilteredAsync(p => 
+            return await _repository.GetFilteredAsync(p =>
             p.PropertyStatusId == statusId);
         }
 
@@ -122,7 +123,7 @@ namespace E_Commerce.Business.Services.PropertyServices.Service
 
         public async Task<bool> IsPropertyAvailableAsync(int propertyId, DateTime startDate, DateTime endDate)
         {
-            var property =await _repository.GetByIdAsync(propertyId);
+            var property = await _repository.GetByIdAsync(propertyId);
             if (property == null) return false;
 
             return property.StartDate <= endDate && property.EndDate >= startDate;
